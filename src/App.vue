@@ -4,24 +4,21 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    <a href="https://www.instagram.com/atorreslinares/" target="_blank">
+      <img src="./assets/tigre.png" class="tigre" alt="tigre" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Hugo Torres" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
+.tigre {
+  height: 16em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+.tigre:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.vue:hover {
