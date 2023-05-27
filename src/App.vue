@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/tigre.png" class="tigre" alt="tigre" />
     </a>
   </div>
-  <HelloWorld msg="Hugo Torres" />
+  <HelloWorld msg="M3t1ch3" />
 </template>
 
 <style scoped>
