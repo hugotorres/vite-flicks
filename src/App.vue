@@ -3,12 +3,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
-    <a href="https://www.instagram.com/atorreslinares/" target="_blank">
-      <img src="./assets/tigre.png" class="tigre" alt="tigre" />
-    </a>
-  </div>
   <HelloWorld msg="M3t1ch3" />
+
+  <router-view></router-view>
 </template>
 
 <style scoped>
@@ -18,9 +15,11 @@ import HelloWorld from './components/HelloWorld.vue'
   will-change: filter;
   transition: filter 300ms;
 }
+
 .tigre:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
