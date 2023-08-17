@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h1>About Me</h1>
+    <h1>curriculum</h1>
     <!-- Add your home page content here -->
   </div>
 </template>
 
 <script>
 export default {
-  name: "About",
+  name: "Curriculum",
 };
 </script>
 <style lang="scss"></style>
