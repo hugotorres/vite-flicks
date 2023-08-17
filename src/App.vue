@@ -37,9 +37,9 @@
       <!-- Add your header content here -->
     </header>
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/curriculum">Curriculum</router-link>
+      <router-link to="/"><home-icon class="icon" /></router-link>
+      <router-link to="/skills">Skills</router-link>
+      <router-link to="/resume">Resume</router-link>
       <!-- Add more navigation links as needed -->
     </nav>
     <router-view></router-view>
@@ -51,8 +51,12 @@
 </template>
 
 <script>
+import { HomeIcon } from "@heroicons/vue/24/outline";
 export default {
   name: "App",
+  components: {
+    HomeIcon,
+  },
   data() {
     return {
       job: false,
@@ -64,6 +68,12 @@ export default {
 };
 </script>
 <style lang="scss">
+.icon {
+  width: 20px;
+  height: 16px;
+  color: #ffffff;
+  margin-left: 12px;
+}
 .job.active {
   background: red;
 }
