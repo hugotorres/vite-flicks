@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="personal-site">
     <header>
       <h1 class="title">
         Hi. I’m
@@ -46,16 +46,22 @@
     <footer>
       <!-- Add your footer content here -->
       <p>&copy; 2023 Hugo Andres. All rights reserved.</p>
+      <logo />
     </footer>
+    <aside class="hover-content">
+      <div v-if="job">developer background</div>
+    </aside>
   </div>
 </template>
 
 <script>
 import { HomeIcon } from "@heroicons/vue/24/outline";
+import Logo from "./components/Logo.vue";
 export default {
   name: "App",
   components: {
     HomeIcon,
+    Logo,
   },
   data() {
     return {
@@ -74,6 +80,17 @@ export default {
   color: #ffffff;
   margin-left: 12px;
 }
+.personal-site {
+  box-shadow: #00000042 0px 0px 10px 3px;
+}
+.hover-content {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  height: 400px;
+  width: 400px;
+}
+
 .job.active {
   background: red;
 }
@@ -122,11 +139,12 @@ html {
 
 body {
   min-block-size: 100%;
-  min-inline-size: 100%;
+  min-inline-size: 900px;
+  max-width: 900px;
   margin: 0;
+  text-align: center;
   box-sizing: border-box;
-  display: grid;
-  place-content: center;
+  display: block;
   font-family: system-ui, sans-serif;
 }
 

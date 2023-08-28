@@ -1,15 +1,24 @@
 <template>
   <div class="resume">
     <h2>Resume</h2>
-    <!-- Add your home page content here -->
+    <div v-for="work in history" :key="work.company" class="item">
+      <img class="logo" src="https://placehold.jp/40x40.png" alt="logo" />
+      <span class="date"> {{ work.date }} </span>
+      <span class="description">{{ work.description }}</span>
+    </div>
   </div>
 </template>
 
 <script>
+import History from "../config/history.json";
 export default {
   name: "Resume",
   components: {},
+  created() {
+    this.history = History;
+  },
   data: () => ({
+    history: [],
     messageWhenNoItems: "There are not items",
     timelineItems: [
       {
@@ -44,5 +53,23 @@ export default {
 .resume {
   min-height: 40vh;
   background: #a7a7a7;
+  .item {
+    background: white;
+    padding: 10px;
+    display: flex;
+    margin: 5px;
+    .company {
+      font-weight: bold;
+      display: block;
+      padding: 10px;
+    }
+    .date {
+      color: slategrey;
+      font-size: 8px;
+    }
+    .description {
+      font-size: 12px;
+    }
+  }
 }
 </style>

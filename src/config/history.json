@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Zemoga",
+    "date": "2005-2018",
+    "description": "Tech lead en sanchobbdo",
+    "logo": "/images/zemoga.png"
+  },
+  {
+    "company": "Globant",
+    "date": "2005-2018",
+    "description": "Tech lead en sanchobbdo",
+    "logo": "/images/globant.png"
+  },
+  {
+    "company": "SanchoBBDO",
+    "date": "2005-2018",
+    "description": "Tech lead en sanchobbdo",
+    "logo": "/images/sanchobbdo.png"
+  },
+  {
+    "company": "Inp- Deporte Virtual",
+    "date": "2005-2018",
+    "description": "fullstack developer",
+    "logo": "/images/sanchobbdo.png"
+  }
+]
