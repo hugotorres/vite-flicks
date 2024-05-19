@@ -1,5 +1,17 @@
 <template>
-  <div class="home"><h1>...</h1></div>
+  <div class="home">
+  
+  <pre>
+    const me = {
+      hobbies: ["Drawing", "Horror movies", "Hanging out with my daughter"],
+      code: ["Javascript","Vuejs","AngularJs", "Typescript", "HTML", "CSS"],
+      tools: ["Vue", "Redux", "RxJs","Git"],
+      architecture: ["Design System Pattern"],
+      preprocessor: ["SASS", "LESS"],
+    }
+  </pre>
+  </div>
+
 </template>
 <script>
 import * as d3 from "d3";

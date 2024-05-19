@@ -26,7 +26,7 @@
     <router-view></router-view>
     <footer>
       <!-- Add your footer content here -->
-      <p>&copy; 2023 Hugo Andres. All rights reserved.</p>
+      <p>&copy; 2024 Hugo Andres. All rights reserved.</p>
       <logo />
     </footer>
     <aside class="hover-content">
@@ -67,11 +67,12 @@ export default {
 }
 
 .hover-content {
-  position: absolute;
-  top: 50%;
-  right: 200px;
-  height: 400px;
-  width: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 215px;
+    width: 30vw;
+    background: black;
 }
 
 .job.active {
