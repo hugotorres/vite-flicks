@@ -1,0 +1,27 @@
+[
+  {
+    "technology": "Javascript",
+    "expertise": "80",
+    "logo": "/images/zemoga.png"
+  },
+  {
+    "technology": "Php",
+    "expertise": "80",
+    "logo": "/images/zemoga.png"
+  },
+  {
+    "technology": "nodejs",
+    "expertise": "80",
+    "logo": "/images/zemoga.png"
+  },
+  {
+    "technology": "Vuejs",
+    "expertise": "80",
+    "logo": "/images/zemoga.png"
+  },
+  {
+    "technology": "English Language",
+    "expertise": "90",
+    "logo": "/images/zemoga.png"
+  }
+]
