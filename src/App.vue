@@ -3,36 +3,17 @@
     <header>
       <h1 class="title">
         Hi. I’m
-        <span
-          class="name"
-          @mouseover="name = true"
-          @mouseleave="name = false"
-          :class="{ active: name }"
-          >Hugo</span
-        >.<br />
+        <span class="name" @mouseover="name = true" @mouseleave="name = false" :class="{ active: name }">
+          Hugo
+        </span>.<br />
         I am a
-        <span
-          class="job"
-          @mouseover="job = true"
-          @mouseleave="job = false"
-          :class="{ active: job }"
-          >frontend developer </span
-        >and,<br />
-        <span
-          class="hobbie"
-          @mouseover="hobbie = true"
-          @mouseleave="hobbie = false"
-          :class="{ active: hobbie }"
-          >ilustrator</span
-        >,<br />
+        <span class="job" @mouseover="job = true" @mouseleave="job = false" :class="{ active: job }">frontend developer
+        </span>and,<br />
+        <span class="hobbie" @mouseover="hobbie = true" @mouseleave="hobbie = false"
+          :class="{ active: hobbie }">ilustrator</span>,<br />
         from
-        <span
-          class="location"
-          @mouseover="location = true"
-          @mouseleave="location = false"
-          :class="{ active: location }"
-          >Colombia</span
-        >
+        <span class="location" @mouseover="location = true" @mouseleave="location = false"
+          :class="{ active: location }">Colombia</span>
       </h1>
       <!-- Add your header content here -->
     </header>
@@ -80,9 +61,11 @@ export default {
   color: #ffffff;
   margin-left: 12px;
 }
+
 .personal-site {
   box-shadow: #00000042 0px 0px 10px 3px;
 }
+
 .hover-content {
   position: absolute;
   top: 50%;
@@ -102,6 +85,7 @@ export default {
 .location.active {
   background: yellow;
 }
+
 .name.active {
   background: yellow;
 }
@@ -132,6 +116,7 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
 html {
   block-size: 100%;
   inline-size: 100%;
@@ -140,9 +125,7 @@ html {
 body {
   min-block-size: 100%;
   min-inline-size: 900px;
-  max-width: 900px;
   margin: 0;
-  text-align: center;
   box-sizing: border-box;
   display: block;
   font-family: system-ui, sans-serif;
@@ -151,6 +134,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
 }
+
 title {
   h1::before {
     transform: scaleX(0);
