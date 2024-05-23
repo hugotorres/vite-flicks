@@ -27,6 +27,21 @@ export default {
           date: "2023-06-20",
           description: "Description of project 2.",
         },
+        {
+          title: "Project 3",
+          date: "2023-06-20",
+          description: "Description of project 2.",
+        },
+        {
+          title: "Project 4",
+          date: "2023-06-20",
+          description: "Description of project 2.",
+        },
+        {
+          title: "Project 5",
+          date: "2023-06-20",
+          description: "Description of project 2.",
+        },
         // Add more timeline events as needed
       ],
     };
@@ -38,10 +53,11 @@ export default {
 .timeline {
   display: flex;
   flex-direction: column;
+  margin: 0 30%;
 }
 
 .timeline-event {
-  border-left: 2px solid #007bff; /* Change color as needed */
+  border-left: 3px solid #007bff; /* Change color as needed */
   margin-bottom: 20px;
   padding-left: 10px;
 }
