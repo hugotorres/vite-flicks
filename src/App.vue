@@ -70,9 +70,9 @@ export default {
     position: absolute;
     top: 0px;
     right: 0px;
-    height: 215px;
-    width: 30vw;
-    background: black;
+    height: 120px;
+    
+    width: 120px;
 }
 
 .job.active {

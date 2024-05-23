@@ -1,23 +1,21 @@
 <template>
   <div class="home">
   
-  <pre>
-    const me = {
-      hobbies: ["Drawing", "Horror movies", "Hanging out with my daughter"],
-      code: ["Javascript","Vuejs","AngularJs", "Typescript", "HTML", "CSS"],
-      tools: ["Vue", "Redux", "RxJs","Git"],
-      architecture: ["Design System Pattern"],
-      preprocessor: ["SASS", "LESS"],
-    }
-  </pre>
+
+  <timeline/>
+
   </div>
 
 </template>
 <script>
 import * as d3 from "d3";
+import Timeline from "../components/Timeline.vue";
 
 export default {
   name: "Home",
+  components: {
+    Timeline
+  },
   mounted() {},
   methods: {},
 };
